@@ -11,21 +11,24 @@ const Project = () => {
         <div className='w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]'>
             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
                w-[100%] h-[200px] md:h-[300px]'>
-                <Image 
-                    src ="/images\p1.jpg"
-                    alt ="Portfolio"
-                    layout="fill"
-                    className="object-contain"
-                /> 
+                <a href="https://amazon-nine-coral.vercel.app/">
+                    <Image 
+                        src ="/images\p1.jpg"
+                        alt ="Portfolio"
+                        layout="fill"
+                        className="object-contain"
+                    /> 
+                </a>
             </div>
 
             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative 
                w-[100%] h-[200px] md:h-[300px]'>
                 <Image 
-                    src ="/images\p2.jpg"
-                    alt ="Portfolio"
+                    src ="/images\amazon.png"
+                    alt ="Amazon-Project"
                     layout="fill"
                     className="object-contain"
+                    
                 /> 
             </div>
 

@@ -20,7 +20,7 @@ const About = () => {
                             <div><span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
                             <br/>
                             <p className='text-[19px] text-slate-300 w-[80%] md:w-[auto]'>
-                            I am a second-year B.Tech student at GGSIPU and a skilled frontend developer 
+                            I am a Pre-Final year B.Tech student at GGSIPU and a skilled frontend developer 
                             with hands-on experience in React and Node.js. If you are looking to connect with me or
                              collaborate on projects, feel free to reach out. I am enthusiastic 
                             about web development and bring a strong foundation in both design and coding to the table.
