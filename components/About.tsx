@@ -3,7 +3,7 @@ import Image from 'next/image';
 const About = () => {
   return (
     <section id="about">
-           <div className='bg-[#121121] pt-[8rem] pb-[4rem]'>
+           <div className='bg-black pt-[8rem] pb-[4rem]'>
                 <div>
                     <h1 className='custom-heading'>
                         ABOUT <span className='text-yellow-400'>ME</span>

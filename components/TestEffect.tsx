@@ -5,9 +5,9 @@ const TestEffect = () => {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'Front-End Developer',
+        'Full-Stack Developer',
         2000, // wait 1s before replacing "Mice" with "Hamsters"
-        'UI/UX Designer',
+        'Software Developer',
         2000
       
       ]}

@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <section id='services'>
-      <div className='bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]'>
+      <div className='bg-black pt-[4rem] md:pt-[8rem] pb-[5rem]'>
         <p className="custom-heading">
             My <span  className='text-yellow-400'>Services</span>
         </p>

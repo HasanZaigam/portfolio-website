@@ -4,12 +4,12 @@ import ContactForm from './Contact';
 
 const Footer = () => {
   return (
-    <div className='pt-[8rem] pb-[4rem]  bg-[#02050a]'>
+    <div className='pt-[8rem] pb-[4rem] bg-black'>
       <h1 className='custom-heading'>
         Contact <span className='text-yellow-300'>ME</span>
         </h1>
         <ContactForm/>
-      <div className='w-[80%] mx-auto mt-[1rem] flex items-center justify-between'>
+      <div className='w-[90%] mx-auto mt-[2rem] border-t-2 border-t-white flex items-center justify-between'>
         <div className='text-[16px] mb-[2rem] md:mb-0 text-white opacity-50'>
           HasanZaigam 2023 | All Rights Reserved
         </div>
