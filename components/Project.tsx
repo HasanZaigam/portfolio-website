@@ -623,7 +623,7 @@ import Image from 'next/image';
 import { projectsData } from './PorjectsData'; // Adjust the import path if necessary
 
 const Project = () => {
-  const [selectedCategory, setSelectedCategory] = useState<'fullStack' | 'web3' | 'ml' | 'all'>('all');
+  const [selectedCategory, setSelectedCategory] = useState<'fullStack' | 'web3' | 'frontend' | 'all'>('all');
   const [showMore, setShowMore] = useState(false);
 
   // Reset showMore when the selectedCategory changes
@@ -649,20 +649,20 @@ const Project = () => {
             All Projects
           </button>
           <button
-            onClick={() => setSelectedCategory('fullStack')}
-            className={`py-2 px-4 rounded-md text-lg font-bold ${selectedCategory === 'fullStack' ? 'bg-yellow-300 text-black' : 'bg-gray-800 text-white'} transition-colors duration-300`}
+            onClick={() => setSelectedCategory('frontend')}
+            className={`py-2 px-4 rounded-md text-lg font-bold ${selectedCategory === 'frontend' ? 'bg-yellow-300 text-black' : 'bg-gray-800 text-white'} transition-colors duration-300`}
           >
             Front-End
           </button>
           <button
-            onClick={() => setSelectedCategory('web3')}
-            className={`py-2 px-4 rounded-md text-lg font-bold ${selectedCategory === 'web3' ? 'bg-yellow-300 text-black' : 'bg-gray-800 text-white'} transition-colors duration-300`}
+            onClick={() => setSelectedCategory('fullStack')}
+            className={`py-2 px-4 rounded-md text-lg font-bold ${selectedCategory === 'fullStack' ? 'bg-yellow-300 text-black' : 'bg-gray-800 text-white'} transition-colors duration-300`}
           >
             Full-Stack
           </button>
           <button
-            onClick={() => setSelectedCategory('ml')}
-            className={`py-2 px-4 rounded-md text-lg font-bold ${selectedCategory === 'ml' ? 'bg-yellow-300 text-black' : 'bg-gray-800 text-white'} transition-colors duration-300`}
+            onClick={() => setSelectedCategory('web3')}
+            className={`py-2 px-4 rounded-md text-lg font-bold ${selectedCategory === 'web3' ? 'bg-yellow-300 text-black' : 'bg-gray-800 text-white'} transition-colors duration-300`}
           >
             Web 3.0
           </button>

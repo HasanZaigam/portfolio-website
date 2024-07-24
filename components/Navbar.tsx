@@ -137,6 +137,9 @@ const Navbar = ({ openNav }: Props) => {
     <section id='home'>
       <div className="border-b-2 w-[100%] fixed z-[10000] top-0 h-[13vh] bg-black shadow-md">
         <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
+          <div className=''>
+            <img src="/images/logo.png" alt="Logo" className='w-[60px] h-[60px] m-0' />
+          </div>
           <h1 className='flex-[0.6] cursor-pointer text-[25px] text-white font-bold'>
             HASAN
             <span className='text-blue-700'>ZAIGAM</span>
