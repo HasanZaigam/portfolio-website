@@ -14,12 +14,11 @@ const Services = () => {
                  font-semibold text-center p-[2rem]'>
                   <CodeBracketSquareIcon className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]'/>
                   <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem] '>
-                    Front-end Developer
+                  Full-Stack Developer
                   </h1>
                   <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                  I am a frontend developer specializing in constructing responsive
-                   and optimized websites,
-                   ensuring seamless user experiences and efficient performance.
+                  Expert in crafting end-to-end web solutions, from user interfaces to backend systems. 
+                  I ensure seamless, scalable applications that deliver exceptional user experiences.y
                   </p>
 
                 </div>
@@ -29,12 +28,12 @@ const Services = () => {
                  font-semibold text-center p-[2rem]'>
                   <PaintBrushIcon className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]'/>
                   <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem] '>
-                    UI/UX <br/>Designer 
+                  Web 3.O Learner
                   </h1>
                   <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                  I have crafted various landing pages and developed extensive design systems.
-                   Through my proficiency, I ensure visually engaging interfaces,
-                    fostering an enriched user experience.
+                  I focus on developing decentralized applications and leveraging blockchain technology.
+                   My expertise in Web 3.0 ensures secure, transparent, and innovative solutions
+                   that are shaping the future of the internet.
                   </p>
 
                 </div>
@@ -44,12 +43,11 @@ const Services = () => {
                  font-semibold text-center p-[2rem]'>
                   <ComputerDesktopIcon className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]'/>
                   <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem] '>
-                    Machine Learning
+                  AI-Enhanced Web Solutions.
                   </h1>
                   <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                  I have experience working with various Python libraries and 
-                  have trained numerous machine learning models, including those for detecting 
-                  malicious links and identifying fake news.
+                  I blend advanced AI with Web 2.0 and Web 3.0 technologies to build smart, efficient 
+                  applications that drive innovation and improve user experiences.
                   </p>
 
                 </div>
