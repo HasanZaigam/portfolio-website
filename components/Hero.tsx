@@ -66,11 +66,11 @@ const Hero = () => {
         <div className='w-[80%] grid-col-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center relative'>
           {/* Display the circular image on small screens */}
           <div className='w-[200px] h-[200px] mt-[8vh] sm:mt-0 sm:mx-auto sm:mb-4 absolute top-[8vh] left-1/2 transform -translate-x-1/2 border-4 border-blue-500 rounded-full overflow-hidden sm:hidden'>
-            <Image src="/images/hassan.jpg" layout="fill" className="object-cover rounded-full" alt={'Hero'} />
+            <Image src="/images/Screenshot 2024-08-09 151214.png" layout="fill" className="object-cover rounded-full" alt={'Hero'} />
           </div>
           {/* Display the circular image on large screens */}
           <div className='hidden sm:block w-[400px] h-[400px] relative lg:flex border-4 border-blue-500 items-center rounded-full'>
-            <Image src="/images/hassan.jpg" layout="fill" className="object-cover rounded-full" alt={'Hero'} />
+            <Image src="/images/Screenshot 2024-08-09 151214.png" layout="fill" className="object-cover rounded-full" alt={'Hero'} />
           </div>
           <div className="relative z-10 sm:ml-8 mt-[34vh] sm:mt-12 text-container">
             <h1 className='text-[35px] md:text-[50px] text-white font-bold'>
