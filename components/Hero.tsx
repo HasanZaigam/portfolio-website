@@ -89,7 +89,7 @@ const Hero = () => {
                 <a href='#contact'>Hire ME</a>
               </button>
               <a
-                href="/HasanResume(ac).pdf" // Corrected path to your resume PDF
+                href="/HasanResume1.pdf" // Corrected path to your resume PDF
                 download="HasanZaigam_Resume.pdf" // Specify the filename for download
                 className='px-[1rem] hover:bg-green-600 hover:text-black transition-all duration-200 py-[1rem] text-[18px] font-bold
                            uppercase bg-blue-500 text-white items-center space-x-2 rounded-[100px]'
